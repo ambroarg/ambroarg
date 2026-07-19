@@ -55,47 +55,39 @@ I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, spe
 
 <br/>
 
-## Featured Projects
+## Projects
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 LLM From Scratch</h3>
+      <h3>LLM From Scratch</h3>
       <img src="https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square" />
       <p>A from-scratch implementation of a Large Language Model in Python/PyTorch — covering tokenization, self-attention, transformer blocks, pretraining, and fine-tuning — built to gain a first-principles understanding of how modern LLMs work.</p>
       <p><b>Stack:</b> Python · PyTorch · NumPy</p>
       <a href="https://github.com/ambroarg/llm-from-scratch"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
     <td width="50%" valign="top">
-      <h3>👶 Fetal Weight Prediction</h3>
+      <h3>Fetal Weight Prediction</h3>
       <img src="https://img.shields.io/badge/status-completed-brightgreen?style=flat-square" />
       <p>A machine learning pipeline predicting fetal weight from clinical and ultrasound measurement data — including data preprocessing, feature engineering, model selection, and performance evaluation for a healthcare use case.</p>
       <p><b>Stack:</b> Python · Scikit-learn · Pandas</p>
-      <a href="https://github.com/ambroarg/PAO"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://github.com/ambroarg/fetal-weight-prediction-ml"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🦾 Projet Robot</h3>
+      <h3>Maze Solver Robot</h3>
       <img src="https://img.shields.io/badge/status-completed-brightgreen?style=flat-square" />
       <p>An autonomous robotics project integrating sensor perception, real-time control, and decision-making algorithms for navigation and interaction with the environment.</p>
       <p><b>Stack:</b> C/C++ · ROS · Embedded Systems</p>
-      <a href="https://github.com/ambroarg/Projet-Robot"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://github.com/ambroarg/maze-solver-robot-hardware-software"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🎧 Audio Source Separation</h3>
+      <h3>Audio Source Separation</h3>
       <img src="https://img.shields.io/badge/status-completed-brightgreen?style=flat-square" />
       <p>A deep learning system for audio source separation — isolating individual sound sources (speech, instruments, noise) from a mixed audio signal using neural network architectures for spectrogram and waveform modeling.</p>
       <p><b>Stack:</b> Python · PyTorch · Librosa</p>
-      <a href="https://github.com/ambroarg/audio-source-separation"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://github.com/ambroarg/automated-audio-source-separation"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
   </tr>
 </table>
-
-<sub>💡 Update the repository links/status above to match your actual GitHub repo names.</sub>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,100:0F2027&height=100&section=footer" width="100%"/>
-</div>
