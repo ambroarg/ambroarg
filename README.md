@@ -18,12 +18,12 @@
 
 I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, specializing in **Artificial Intelligence**. I'm driven by understanding how intelligent systems work at a fundamental level — from the mathematics behind a transformer to the code that makes a robot perceive and act in the real world.
 
-- 🔭 Currently building **an LLM from scratch** — tokenizer, attention mechanism, pretraining and fine-tuning, implemented from first principles
-- 🎓 5th-year engineering student, AI specialization, INSA Rouen Normandie
-- 🌱 Deepening my knowledge of deep learning architectures, MLOps, and applied robotics
-- 🧠 Interests: Large Language Models, Machine Learning for healthcare, Computer Vision, Audio Signal Processing, Robotics
-- 💬 Always happy to talk about AI research, model architectures, or engineering trade-offs
-- 📫 Reach me at **ambroise.arrigoni@gmail.com**
+- Currently building **an LLM from scratch** — tokenizer, attention mechanism, pretraining and fine-tuning, implemented from first principles
+- 5th-year engineering student, AI specialization, INSA Rouen Normandie 🎓 
+- Deepening my knowledge of deep learning architectures, MLOps, and applied robotics
+- Interests: Large Language Models, Machine Learning for healthcare, Computer Vision, Audio Signal Processing, Robotics
+- Always happy to talk about AI research, model architectures, or engineering trade-offs 💬
+- Reach me at **ambroise.arrigoni@gmail.com**
 
 <br/>
 
