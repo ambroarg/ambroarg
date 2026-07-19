@@ -55,7 +55,7 @@ I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, spe
 
 <br/>
 
-## Projects
+## Featured Projects
 
 <table width="100%">
   <tr>
