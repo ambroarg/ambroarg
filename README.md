@@ -2,13 +2,13 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=1E40AF&height=250&section=header&text=Ambroise%20ARRIGONI&fontSize=70&animation=fadeIn" width="100%" />
 </p>
-<a href="https://www.linkedin.com/in/ambroise-arrigoni-632bb7209/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/ambroise-arrigoni/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:ambroise.arrigoni@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/INSA_Rouen_Normandie-005EB8?style=for-the-badge&logo=googlescholar&logoColor=white" />
-<img src="https://img.shields.io/badge/AI%20%2F%20ML%20Specialization-000000?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Applied%20AI%20%2F%20LLM-000000?style=for-the-badge&logo=openai&logoColor=white" />
 <br/><br/>
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=2C5364&center=true&vCenter=true&width=650&lines=Building+an+LLM+from+scratch+%F0%9F%A4%96;Machine+Learning+%26+Deep+Learning;AI+%2B+Robotics+Systems;5th-Year+Engineering+Student+%40+INSA+Rouen" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=2C5364&center=true&vCenter=true&width=650&lines=LLM+agents+%26+RAG+in+production;Building+an+LLM+from+scratch+%F0%9F%A4%96;Machine+Learning+%26+Deep+Learning;5th-Year+Engineering+Student+%40+INSA+Rouen" alt="Typing SVG" />
 </a>
 </div>
 
@@ -16,14 +16,23 @@
 
 ## About Me
 
-I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, specializing in **Artificial Intelligence**. I'm driven by understanding how intelligent systems work at a fundamental level — from the mathematics behind a transformer to the code that makes a robot perceive and act in the real world.
+I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, specializing in **Artificial Intelligence**. I like building AI systems that people actually rely on, and understanding how they work down to the mathematics behind a transformer.
 
-- Currently building **an LLM from scratch** — tokenizer, attention mechanism, pretraining and fine-tuning, implemented from first principles
-- 5th-year engineering student, AI specialization, INSA Rouen Normandie 🎓 
-- Deepening my knowledge of deep learning architectures, MLOps, and applied robotics
-- Interests: Large Language Models, Machine Learning for healthcare, Computer Vision, Audio Signal Processing, Robotics
-- Always happy to talk about AI research, model architectures, or engineering trade-offs 💬
-- Reach me at **ambroise.arrigoni@gmail.com**
+-  **AI engineering intern at the Senate of Chile (Valparaíso, 2026)**: LLM agents and RAG systems running in production, fully self-hosted for data sovereignty
+-  Currently building **an LLM from scratch** in PyTorch, trained on a French corpus
+-  Studied and worked in France, Japan, Spain and Chile · French, Spanish (native) and English (C1)
+-  Looking for a **6-month final-year internship in applied AI** starting January/February 2027
+-  Reach me at **ambroise.arrigoni@gmail.com**
+
+<br/>
+
+## Experience Highlight · Senate of Chile
+
+*Code is not public (institutional project), but here is what I worked on:*
+
+- **Sen.IA**, a WhatsApp assistant giving senators instant access to official legislative data (agenda, bills, votes): self-hosted LLM served with vLLM, tool calling through MCP, FastAPI, PostgreSQL, Docker
+- **IT support assistant on GLPI**: multi-agent system with RAG over resolved tickets (Qdrant), ITIL urgency triage and automatic ticket creation
+- Reliability work: 54-case behavioral evaluation suite (tool routing, hallucination, prompt injection), root-cause analysis of a production outage, load tests up to 75 concurrent users
 
 <br/>
 
@@ -33,23 +42,21 @@ I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, spe
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,r&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,java,c,r&theme=dark" />
 
 **AI / Machine Learning**
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" />
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,opencv&theme=dark" />
 
-**Robotics & Embedded**
+**Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=raspberrypi&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,mysql&theme=dark" />
 
-**Web**
+**Tools & Infra**
 
-<img src="https://skillicons.dev/icons?i=angular&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,gitlab,docker,linux,raspberrypi&theme=dark" />
 
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" />
+Also: vLLM · Qdrant · MCP · RAG · embeddings · Angular · Node.js
 
 </div>
 
@@ -62,32 +69,40 @@ I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, spe
     <td width="50%" valign="top">
       <h3>LLM From Scratch</h3>
       <img src="https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square" />
-      <p>A from-scratch implementation of a Large Language Model in Python/PyTorch — covering tokenization, self-attention, transformer blocks, pretraining, and fine-tuning — built to gain a first-principles understanding of how modern LLMs work.</p>
+      <p>A decoder-only Transformer implemented from first principles in PyTorch and trained on a French corpus, to understand modern LLMs end to end.</p>
+      <p> Multi-head causal self-attention, pre-norm residual blocks, GELU MLP, CI pipeline<br/>
+      🔜 Own tokenizer, pretraining on French Wikipedia, fine-tuning</p>
       <p><b>Stack:</b> Python · PyTorch · NumPy</p>
       <a href="https://github.com/ambroarg/llm-from-scratch"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
     <td width="50%" valign="top">
       <h3>Fetal Weight Prediction</h3>
       <img src="https://img.shields.io/badge/status-completed-brightgreen?style=flat-square" />
-      <p>A machine learning pipeline predicting fetal weight from clinical and ultrasound measurement data — including data preprocessing, feature engineering, model selection, and performance evaluation for a healthcare use case.</p>
+      <p>A machine learning pipeline predicting fetal weight from clinical and ultrasound data: preprocessing and analysis of 45 variables (PCA, t-SNE), then comparison of Random Forest and Gradient Boosting models.</p>
       <p><b>Stack:</b> Python · Scikit-learn · Pandas</p>
       <a href="https://github.com/ambroarg/fetal-weight-prediction-ml"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Maze Solver Robot</h3>
-      <img src="https://img.shields.io/badge/status-completed-brightgreen?style=flat-square" />
-      <p>An autonomous robotics project integrating sensor perception, real-time control, and decision-making algorithms for navigation and interaction with the environment.</p>
-      <p><b>Stack:</b> C/C++ · ROS · Embedded Systems</p>
-      <a href="https://github.com/ambroarg/maze-solver-robot-hardware-software"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-    </td>
-    <td width="50%" valign="top">
       <h3>Audio Source Separation</h3>
       <img src="https://img.shields.io/badge/status-completed-brightgreen?style=flat-square" />
-      <p>A deep learning system for audio source separation — isolating individual sound sources (speech, instruments, noise) from a mixed audio signal using neural network architectures for spectrogram and waveform modeling.</p>
+      <p>A deep learning system isolating individual sound sources (speech, instruments, noise) from a mixed audio signal, modeling spectrograms and waveforms.</p>
       <p><b>Stack:</b> Python · PyTorch · Librosa</p>
       <a href="https://github.com/ambroarg/automated-audio-source-separation"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
+    <td width="50%" valign="top">
+      <h3>Maze Solver Robot</h3>
+      <img src="https://img.shields.io/badge/status-completed-brightgreen?style=flat-square" />
+      <p>An autonomous robot solving mazes, built as team lead: real-time sensor acquisition, trajectory control and an embedded maze-solving algorithm.</p>
+      <p><b>Stack:</b> C · Raspberry Pi 4 · GitLab</p>
+      <a href="https://github.com/ambroarg/maze-solver-robot-hardware-software"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
   </tr>
 </table>
+
+<br/>
+
+<div align="center">
+<i>Also on this profile: color image segmentation (SLIC), satellite image processing (MATLAB).</i>
+</div>
