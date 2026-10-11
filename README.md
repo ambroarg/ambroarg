@@ -19,7 +19,7 @@
 I'm a final-year (5th year) engineering student at **INSA Rouen Normandie**, specializing in **Artificial Intelligence**. I like building AI systems that people actually rely on, and understanding how they work down to the mathematics behind a transformer.
 
 -  **AI engineering intern at the Senate of Chile (Valparaíso, 2026)**: LLM agents and RAG systems running in production, fully self-hosted for data sovereignty
--  Currently building **an LLM from scratch** in PyTorch, trained on a French corpus
+-  Currently building [**an LLM from scratch**](https://github.com/ambroarg/llm_from_scratch_fr) in PyTorch, trained on a French corpus
 -  Studied and worked in France, Japan, Spain and Chile · French, Spanish (native) and English (C1)
 -  Looking for a **6-month final-year internship in applied AI** starting January/February 2027
 -  Reach me at **ambroise.arrigoni@gmail.com**
@@ -70,10 +70,10 @@ Also: vLLM · Qdrant · MCP · RAG · embeddings · Angular · Node.js
       <h3>LLM From Scratch</h3>
       <img src="https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square" />
       <p>A decoder-only Transformer implemented from first principles in PyTorch and trained on a French corpus, to understand modern LLMs end to end.</p>
-      <p> Multi-head causal self-attention, pre-norm residual blocks, GELU MLP, CI pipeline<br/>
-      🔜 Own tokenizer, pretraining on French Wikipedia, fine-tuning</p>
+      <p> Multi-head causal self-attention, pre-norm residual blocks, GELU MLP, own BPE tokenizer (16k vocabulary), CI pipeline<br/>
+      Pretraining on French Wikipedia, fine-tuning</p>
       <p><b>Stack:</b> Python · PyTorch · NumPy</p>
-      <a href="https://github.com/ambroarg/llm-from-scratch"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://github.com/ambroarg/llm_from_scratch_fr"><img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     </td>
     <td width="50%" valign="top">
       <h3>Fetal Weight Prediction</h3>
